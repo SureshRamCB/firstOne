@@ -1,0 +1,22 @@
+package newProject1;
+
+import java.util.HashMap;
+
+import org.testng.annotations.Test;
+
+public class DuplicatesString {
+	@Test
+	public void fineDuplicates() {
+		HashMap<String, Integer>hm=new HashMap<>();
+		String word="I am babu babu I suresh";
+		String[] single=word.split(" ");
+		for (String s : single) {
+			
+			if(hm.get(s)!=null) {
+				hm.put(s, hm.get(s)+1);
+			}
+			hm.put(s, 1);
+		}
+		System.out.println(hm);
+	}
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="EGit.KnownHosts">
+		<item value="git.eclipse.org"/>
+		<item value="bitbucket.org"/>
+		<item value="github.com"/>
+	</list>
+	<list key="RepositorySelectionPage.UsedUris">
+		<item value="https://github.com/SureshRamCB/SeleniumFM.git"/>
+		<item value="https://github.com/SureshRamCB/projectBySudhaTeam.git"/>
+		<item value="https://github.com/SureshRamCB/POM-sudhaNanda.git"/>
+	</list>
+</section>

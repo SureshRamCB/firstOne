@@ -1,0 +1,8 @@
+package sampleFrameWork;
+
+public class EventMethods {
+
+	public  static void wait_for_element() {
+		
+	}
+}

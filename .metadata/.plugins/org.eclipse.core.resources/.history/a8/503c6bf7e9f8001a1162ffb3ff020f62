@@ -1,0 +1,18 @@
+package newProject1;
+
+import org.testng.annotations.Test;
+
+public class SwappingValues {
+	@Test
+	public void swapping_With_Third_Variable() {
+		int a=23;
+		int b=32;
+		System.out.println("Before swapping values a & b: "+a     +b);
+		
+		int temp=a;
+		a=b;
+		b=temp;
+		
+		System.out.println(a  +b);
+	}
+}

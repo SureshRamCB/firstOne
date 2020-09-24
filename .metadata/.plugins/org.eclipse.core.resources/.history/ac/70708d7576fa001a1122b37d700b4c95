@@ -1,0 +1,14 @@
+package newProject1;
+
+import org.testng.annotations.Test;
+
+public class DuplicatesString {
+	@Test
+	public void fineDuplicates() {
+		String word="I am babu babu I suresh";
+		String[] single=word.split(" ");
+		for (String s : single) {
+			System.out.println(s);
+		}
+	}
+}

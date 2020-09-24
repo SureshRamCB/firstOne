@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="newProject1.Configurations"/>
+      <class name="newProject1.SumOfTheDigits"/>
+      <class name="newProject1.Repository"/>
+      <class name="newProject1.SwappingValues"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
